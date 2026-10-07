@@ -1,0 +1,19 @@
+# Python environments, caches, and local editor state
+.venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.DS_Store
+.vscode/
+
+# Course-provided source data: do not publish without explicit redistribution rights.
+data/raw/*
+!data/raw/README.md
+
+# Generated results include account-level identifiers and scores; retain locally only.
+outputs/*
+!outputs/README.md
+!outputs/high_risk_feature_importance.csv
+
+# Archived source materials, superseded analyses, and local downloads.
+archive/
